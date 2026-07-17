@@ -1,7 +1,7 @@
 <div align="center">
   <!-- <img src="./assets/profile-photo.webp" width="150" alt="Huy Che" /> -->
   <h1><strong>Senior Software Engineer · Product Builder</strong></h1>
-  <img src="./assets/skill-constellation.svg" width="760" alt="Animated engineering stack" />
+  <img src="./assets/skill-constellation.svg" width="800" alt="Animated engineering stack" />
     <p align="center">
         <a href="https://huyche.site" title="Visit my portfolio">
             <img
