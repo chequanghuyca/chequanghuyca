@@ -1,29 +1,43 @@
 <div align="center">
-  <h1>Huy Che</h1>
-  <p><strong>Senior Software Engineer · Product Builder</strong></p>
-  <p>I turn ambitious product ideas into reliable interfaces, scalable services, and production-ready systems.</p>
-  <a href="https://huyche.site"><img src="https://img.shields.io/badge/ENTER_PORTFOLIO-huyche.site-0F172A?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit Huy Che portfolio" /></a>
+  <!-- <img src="./assets/profile-photo.webp" width="150" alt="Huy Che" /> -->
+  <h1><strong>Huy Che</strong></h1>
+  <h3><strong>Senior Software Engineer · Product Builder</strong></h3>
+  <img src="./assets/skill-constellation.svg" width="680" alt="Animated engineering stack" />
+    <p align="center">
+        <a href="https://huyche.site" title="Visit my portfolio">
+            <img
+            src="https://img.shields.io/badge/PORTFOLIO-6EE7F9?style=for-the-badge&logo=vercel&logoColor=07101F"
+            height="32"
+            alt="Portfolio"
+            />
+        </a>
+        &nbsp;
+        <a href="https://www.linkedin.com/in/quang-huy-che-11493311b/" title="Connect with me on LinkedIn">
+            <img
+            src="https://img.shields.io/badge/LINKEDIN-101827?style=for-the-badge&logo=linkedin&logoColor=6EE7F9"
+            height="32"
+            alt="LinkedIn"
+            />
+        </a>
+        &nbsp;
+        <a href="mailto:chequanghuybtt@gmail.com" title="Send me an email">
+            <img
+            src="https://img.shields.io/badge/EMAIL-101827?style=for-the-badge&logo=gmail&logoColor=6EE7F9"
+            height="32"
+            alt="Email"
+            />
+        </a>
+    </p>
+</div>
+
+<div align="center">
+  <h3><strong>LANGUAGES</strong></h3>
+  <img src="https://skillicons.dev/icons?i=ts,js,go,rust,dart,html,css,scss&theme=dark" alt="TypeScript, JavaScript, Go, Rust, Dart, HTML, CSS and SCSS" />
 </div>
 
 <br />
 
-<p align="center">
-  <img src="./assets/skill-constellation.svg" width="100%" alt="Animated engineering skill constellation for Huy Che" />
-</p>
-
-<h3 align="center">Core toolkit</h3>
-
-<table>
-  <tr>
-    <td align="center"><strong>Product</strong><br /><code>TypeScript</code> · <code>React</code> · <code>Next.js</code></td>
-    <td align="center"><strong>Services</strong><br /><code>Go</code> · <code>NestJS</code> · <code>GraphQL</code></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Systems</strong><br /><code>Rust</code> · <code>Tauri</code> · <code>Docker</code> · <code>Cloudflare</code></td>
-    <td align="center"><strong>Data & frontier</strong><br /><code>PostgreSQL</code> · <code>Web3</code> · <code>AI workflows</code></td>
-  </tr>
-</table>
-
 <div align="center">
-  <sub><strong>CLARITY OVER CLEVERNESS · BUILT FOR PRODUCTION · MEASURE WHAT MATTERS</strong></sub>
+  <h3><strong>ENGINEERING STACK</strong></h3>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nestjs,flutter,graphql,postgres,mongodb,docker,cloudflare,kafka,grafana,nginx,tauri,tailwind&theme=dark&perline=14" alt="Engineering stack" />
 </div>

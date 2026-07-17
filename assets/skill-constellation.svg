@@ -1,172 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title description">
-  <title id="title">Huy Che skill constellation</title>
-  <desc id="description">An animated engineering map connecting Huy Che with TypeScript, React, Next.js, NestJS, Go, Rust, PostgreSQL, GraphQL, Docker, Cloudflare, Web3, and AI workflows.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="52" aria-labelledby="title description">
+    <defs>
+        <linearGradient id="prefix__accent" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#22d3ee" />
+            <stop offset=".5" stop-color="#818cf8" />
+            <stop offset="1" stop-color="#e879f9" />
+        </linearGradient>
+    </defs>
+    <style>
+        @keyframes cycle {
+            0% {
+                opacity: 0;
+                transform: translateY(5px)
+            }
 
-  <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070b12" />
-      <stop offset="0.5" stop-color="#101a2b" />
-      <stop offset="1" stop-color="#080d15" />
-    </linearGradient>
-    <radialGradient id="center-fill" cx="50%" cy="42%" r="65%">
-      <stop offset="0" stop-color="#273c60" />
-      <stop offset="0.55" stop-color="#101a2b" />
-      <stop offset="1" stop-color="#070b12" />
-    </radialGradient>
-    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.16" />
-      <stop offset="0.5" stop-color="#60a5fa" stop-opacity="0.92" />
-      <stop offset="1" stop-color="#f59e0b" stop-opacity="0.18" />
-    </linearGradient>
-    <linearGradient id="primary" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#67e8f9" />
-      <stop offset="0.52" stop-color="#60a5fa" />
-      <stop offset="1" stop-color="#c084fc" />
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#dbeafe" stroke-opacity="0.035" stroke-width="1" />
-    </pattern>
-    <filter id="soft-glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    <filter id="node-glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-  </defs>
+            28%,
+            5% {
+                opacity: 1;
+                transform: translateY(0)
+            }
 
-  <style>
-    .signal { animation: signal-flow 7s linear infinite; }
-    .signal-alt { animation: signal-flow 9s linear infinite reverse; }
-    .orbit { animation: orbit-flow 13s linear infinite; }
-    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 3.4s ease-out infinite; }
-    .pulse-delay-1 { animation-delay: 0.6s; }
-    .pulse-delay-2 { animation-delay: 1.2s; }
-    .pulse-delay-3 { animation-delay: 1.8s; }
-    .pulse-delay-4 { animation-delay: 2.4s; }
-    .scan { animation: scan 5.5s ease-in-out infinite; }
-    @keyframes signal-flow { to { stroke-dashoffset: -240; } }
-    @keyframes orbit-flow { to { stroke-dashoffset: -360; } }
-    @keyframes pulse {
-      0% { transform: scale(0.7); opacity: 0; }
-      24% { opacity: 0.45; }
-      70%, 100% { transform: scale(1.9); opacity: 0; }
-    }
-    @keyframes scan {
-      0%, 100% { opacity: 0.12; transform: translateX(-65px); }
-      50% { opacity: 0.55; transform: translateX(65px); }
-    }
-    @media (prefers-reduced-motion: reduce) {
-      .signal, .signal-alt, .orbit, .pulse, .scan { animation: none; }
-      .pulse, .scan { opacity: 0; }
-    }
-  </style>
+            33%,
+            to {
+                opacity: 0;
+                transform: translateY(-5px)
+            }
+        }
 
-  <rect width="1200" height="420" rx="28" fill="url(#background)" />
-  <rect width="1200" height="420" rx="28" fill="url(#grid)" />
-  <rect x="1" y="1" width="1198" height="418" rx="27" fill="none" stroke="#dbeafe" stroke-opacity="0.12" />
+        @keyframes trace {
 
-  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
-    <text x="42" y="45" fill="#e2e8f0" font-size="14" font-weight="700" letter-spacing="3">HUY CHE / SKILL CONSTELLATION</text>
-    <circle cx="1020" cy="40" r="4" fill="#34d399" filter="url(#node-glow)" />
-    <text x="1035" y="45" fill="#94a3b8" font-size="11" font-weight="600" letter-spacing="2">SYSTEMS ONLINE</text>
+            0%,
+            to {
+                stroke-dashoffset: 220;
+                opacity: .3
+            }
 
-    <g fill="none" stroke="url(#signal)" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 10">
-      <path class="signal" d="M 544 183 C 450 125, 350 112, 230 112" />
-      <path class="signal-alt" d="M 530 218 C 395 220, 292 245, 170 264" />
-      <path class="signal" d="M 554 255 C 475 286, 425 308, 330 318" />
-      <path class="signal-alt" d="M 580 270 C 535 292, 505 312, 458 324" />
-      <path class="signal" d="M 620 270 C 665 292, 695 312, 742 324" />
-      <path class="signal-alt" d="M 646 255 C 725 286, 775 308, 870 318" />
-      <path class="signal" d="M 670 218 C 805 220, 908 245, 1030 264" />
-      <path class="signal-alt" d="M 656 183 C 750 125, 850 112, 970 112" />
-    </g>
+            50% {
+                stroke-dashoffset: 0;
+                opacity: 1
+            }
+        }
 
-    <g opacity="0.5" fill="none" stroke="#60a5fa" stroke-width="1">
-      <path d="M 230 112 C 165 150, 145 205, 170 264" />
-      <path d="M 170 264 C 210 298, 265 312, 330 318" />
-      <path d="M 330 318 C 375 328, 410 330, 458 324" />
-      <path d="M 742 324 C 790 330, 825 328, 870 318" />
-      <path d="M 870 318 C 935 312, 990 298, 1030 264" />
-      <path d="M 1030 264 C 1055 205, 1035 150, 970 112" />
-    </g>
+        .prefix__line {
+            opacity: 0;
+            transform-box: fill-box;
+            transform-origin: center;
+            animation: cycle 12s ease-in-out infinite
+        }
 
-    <g transform="translate(600 216)">
-      <circle r="94" fill="#60a5fa" opacity="0.06" filter="url(#soft-glow)" />
-      <circle class="orbit" r="82" fill="none" stroke="url(#primary)" stroke-width="1.5" stroke-dasharray="5 13" opacity="0.72" />
-      <circle r="66" fill="url(#center-fill)" stroke="#93c5fd" stroke-opacity="0.42" />
-      <circle class="pulse" r="68" fill="none" stroke="#60a5fa" stroke-width="1.3" />
-      <rect class="scan" x="-30" y="-53" width="60" height="106" rx="30" fill="url(#primary)" opacity="0.16" />
-      <text x="0" y="1" text-anchor="middle" fill="#f8fafc" font-size="30" font-weight="800" letter-spacing="2">HC</text>
-      <text x="0" y="24" text-anchor="middle" fill="#93c5fd" font-size="9" font-weight="700" letter-spacing="2.4">ENGINEERING</text>
-    </g>
+        @media (prefers-reduced-motion:reduce) {
+            .prefix__line {
+                animation: none
+            }
 
-    <g transform="translate(230 112)">
-      <circle class="pulse pulse-delay-1" r="31" fill="none" stroke="#38bdf8" />
-      <circle r="28" fill="#0c2338" stroke="#38bdf8" stroke-opacity="0.78" />
-      <text x="0" y="4" text-anchor="middle" fill="#e0f2fe" font-size="12" font-weight="800">TS</text>
-      <text x="0" y="48" text-anchor="middle" fill="#bae6fd" font-size="12" font-weight="700">TypeScript</text>
-      <text x="0" y="64" text-anchor="middle" fill="#64748b" font-size="8" letter-spacing="1.5">CORE LANGUAGE</text>
-    </g>
-
-    <g transform="translate(170 264)">
-      <circle class="pulse pulse-delay-2" r="25" fill="none" stroke="#22d3ee" />
-      <circle r="23" fill="#0b1f2c" stroke="#22d3ee" stroke-opacity="0.72" />
-      <text x="0" y="4" text-anchor="middle" fill="#cffafe" font-size="10" font-weight="800">UI</text>
-      <text x="0" y="41" text-anchor="middle" fill="#cbd5e1" font-size="11" font-weight="700">React · Next.js</text>
-    </g>
-
-    <g transform="translate(330 318)">
-      <circle class="pulse pulse-delay-3" r="22" fill="none" stroke="#fb7185" />
-      <circle r="20" fill="#2b121b" stroke="#fb7185" stroke-opacity="0.74" />
-      <text x="0" y="4" text-anchor="middle" fill="#ffe4e6" font-size="9" font-weight="800">API</text>
-      <text x="0" y="38" text-anchor="middle" fill="#cbd5e1" font-size="11" font-weight="700">NestJS</text>
-    </g>
-
-    <g transform="translate(458 324)">
-      <circle class="pulse pulse-delay-4" r="27" fill="none" stroke="#2dd4bf" />
-      <circle r="25" fill="#0b2725" stroke="#2dd4bf" stroke-opacity="0.8" />
-      <text x="0" y="4" text-anchor="middle" fill="#ccfbf1" font-size="12" font-weight="800">GO</text>
-      <text x="0" y="43" text-anchor="middle" fill="#99f6e4" font-size="11" font-weight="700">Golang</text>
-    </g>
-
-    <g transform="translate(742 324)">
-      <circle class="pulse pulse-delay-1" r="27" fill="none" stroke="#f59e0b" />
-      <circle r="25" fill="#2a1d08" stroke="#f59e0b" stroke-opacity="0.8" />
-      <text x="0" y="4" text-anchor="middle" fill="#fef3c7" font-size="12" font-weight="800">RS</text>
-      <text x="0" y="43" text-anchor="middle" fill="#fde68a" font-size="11" font-weight="700">Rust · Tauri</text>
-    </g>
-
-    <g transform="translate(870 318)">
-      <circle class="pulse pulse-delay-2" r="22" fill="none" stroke="#a78bfa" />
-      <circle r="20" fill="#21183a" stroke="#a78bfa" stroke-opacity="0.76" />
-      <text x="0" y="4" text-anchor="middle" fill="#ede9fe" font-size="9" font-weight="800">OPS</text>
-      <text x="0" y="38" text-anchor="middle" fill="#cbd5e1" font-size="11" font-weight="700">Docker · Cloudflare</text>
-    </g>
-
-    <g transform="translate(1030 264)">
-      <circle class="pulse pulse-delay-3" r="25" fill="none" stroke="#c084fc" />
-      <circle r="23" fill="#29163a" stroke="#c084fc" stroke-opacity="0.74" />
-      <text x="0" y="4" text-anchor="middle" fill="#f3e8ff" font-size="9" font-weight="800">DATA</text>
-      <text x="0" y="41" text-anchor="middle" fill="#cbd5e1" font-size="11" font-weight="700">Postgres · GraphQL</text>
-    </g>
-
-    <g transform="translate(970 112)">
-      <circle class="pulse pulse-delay-4" r="31" fill="none" stroke="#f472b6" />
-      <circle r="28" fill="#30152a" stroke="#f472b6" stroke-opacity="0.76" />
-      <text x="0" y="4" text-anchor="middle" fill="#fce7f3" font-size="10" font-weight="800">W3</text>
-      <text x="0" y="48" text-anchor="middle" fill="#fbcfe8" font-size="12" font-weight="700">Web3 · AI</text>
-      <text x="0" y="64" text-anchor="middle" fill="#64748b" font-size="8" letter-spacing="1.5">EMERGING SYSTEMS</text>
-    </g>
-
-    <text x="42" y="392" fill="#64748b" font-size="9" font-weight="600" letter-spacing="1.7">PRODUCT INTERFACES · SCALABLE SERVICES · WEB3 INFRASTRUCTURE · AI-ASSISTED DELIVERY</text>
-    <text x="1158" y="392" text-anchor="end" fill="#475569" font-size="9" letter-spacing="1.3">BUILD / MEASURE / REFINE</text>
-  </g>
+            .prefix__line-one {
+                opacity: 1
+            }
+        }
+    </style>
+    <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
+        font-size="15" font-weight="600" letter-spacing="1.2" text-anchor="middle"><text
+            class="prefix__line prefix__line-one" x="400" y="27" fill="#38bdf8">TypeScript · JavaScript · Go ·
+            Rust</text><text class="prefix__line" x="400" y="27" fill="#818cf8" style="animation-delay:4s">React ·
+            Next.js · NestJS · GraphQL</text><text class="prefix__line" x="400" y="27" fill="#c084fc"
+            style="animation-delay:8s">Docker · Cloudflare · Tauri · Web3 · AI</text></g>
+    <path d="M290 43h220" fill="none" stroke="url(#prefix__accent)" stroke-width="1.5" stroke-linecap="round"
+        stroke-dasharray="220" style="animation:trace 3s ease-in-out infinite" />
 </svg>
