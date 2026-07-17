@@ -53,12 +53,16 @@ I am a software engineer with **5+ years of experience** turning complex require
 | **[Email Service](https://github.com/chequanghuyca/email-service-v2)** | Deployment-ready email API with templates, attachments, validation, and rate limiting. | NestJS · TypeScript |
 | **[Portfolio 2026](https://github.com/chequanghuyca/portfolio-v2)** · [Live](https://huyche.site) | Bilingual engineering portfolio focused on product stories, systems, and measurable delivery. | React · TypeScript |
 
-## GitHub at a glance
+## Engineering at a glance
 
-<div align="center">
-  <img height="155" src="https://github-readme-stats.vercel.app/api?username=chequanghuyca&show_icons=true&hide_border=true&theme=transparent&rank_icon=github&include_all_commits=true&title_color=2563EB&icon_color=2563EB" alt="Huy Che GitHub statistics" />
-  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chequanghuyca&layout=compact&hide_border=true&theme=transparent&langs_count=8&title_color=2563EB" alt="Most used languages" />
-</div>
+<table>
+  <tr>
+    <td align="center"><strong>5+</strong><br /><sub>Years of experience</sub></td>
+    <td align="center"><strong>20+</strong><br /><sub>Projects completed</sub></td>
+    <td align="center"><strong>03</strong><br /><sub>Core languages</sub></td>
+    <td align="center"><strong>Production</strong><br /><sub>Default mindset</sub></td>
+  </tr>
+</table>
 
 ---
 
