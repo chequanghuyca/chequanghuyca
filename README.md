@@ -38,5 +38,6 @@
 
 <div align="center">
   <h3><strong>ENGINEERING STACK</strong></h3>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nestjs,flutter,graphql,postgres,mongodb,docker,cloudflare,kafka,grafana,nginx,tauri,tailwind&theme=dark&perline=14" alt="Engineering stack" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nestjs,flutter,graphql,postgres,mongodb&theme=dark&perline=14" alt="Engineering stack" />
+<img src="https://skillicons.dev/icons?i=docker,cloudflare,kafka,grafana,nginx,tauri,tailwind&theme=dark&perline=14" alt="Engineering stack" />
 </div>
