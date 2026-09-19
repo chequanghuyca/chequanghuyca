@@ -3,7 +3,7 @@
   <h1><strong>Senior Software Engineer · Product Builder</strong></h1>
   <img src="./assets/skill-constellation.svg" width="800" alt="Animated engineering stack" />
     <p align="center">
-        <a href="https://huyche.com" title="Visit my portfolio">
+        <a href="https://huyche.com" title="Visit my portfolio" target="_blank">
             <img
             src="https://img.shields.io/badge/PORTFOLIO-6EE7F9?style=for-the-badge&logo=vercel&logoColor=07101F"
             height="32"
@@ -11,7 +11,7 @@
             />
         </a>
         &nbsp;
-        <a href="https://www.linkedin.com/in/quang-huy-che-11493311b/" title="Connect with me on LinkedIn">
+        <a href="https://www.linkedin.com/in/quang-huy-che-11493311b/" title="Connect with me on LinkedIn" target="_blank">
             <img
             src="https://img.shields.io/badge/LINKEDIN-101827?style=for-the-badge&logo=linkedin&logoColor=6EE7F9"
             height="32"
