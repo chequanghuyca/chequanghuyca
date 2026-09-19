@@ -3,7 +3,7 @@
   <h1><strong>Senior Software Engineer · Product Builder</strong></h1>
   <img src="./assets/skill-constellation.svg" width="800" alt="Animated engineering stack" />
     <p align="center">
-        <a href="https://huyche.site" title="Visit my portfolio">
+        <a href="https://huyche.com" title="Visit my portfolio">
             <img
             src="https://img.shields.io/badge/PORTFOLIO-6EE7F9?style=for-the-badge&logo=vercel&logoColor=07101F"
             height="32"
